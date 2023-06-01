@@ -9,7 +9,7 @@
     align-items: center;
     background-color:var(--color-white);
     
-    position: fixed;
+    position: ;
     height: 30px;
     padding: 16px 12px;
     
@@ -119,6 +119,7 @@
 .main{
     
     max-width: 1200px;
+  
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -320,6 +321,11 @@
     .location .location-place {
         font-size: 8px;
         font-weight: 100;
+    }
+    .location-place .location-icon {
+        font-size: 10px;
+        position: relative;
+        top: -3px;
     }
     .search-bar {
       
